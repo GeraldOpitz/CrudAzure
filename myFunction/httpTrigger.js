@@ -6,7 +6,7 @@ module.exports = async function (context, req) {
     const myCustomVariable = process.env.MyCustomVariable;
 
     // Imprimir el valor en los logs
-    logger.info(`Valor de MyCusal: ${myCustomVariable}`);
+    logger.info(`Valor de MyCual: ${myCustomVariable}`);
 
     // Responder a la solicitud HTTP
     context.res = {
